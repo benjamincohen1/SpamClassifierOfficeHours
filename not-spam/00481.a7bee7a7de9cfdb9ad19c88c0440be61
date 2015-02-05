@@ -1,0 +1,38 @@
+Online contents of Electronic Publishing journalI recently stumbled across the contents of the journal, "Electronic
+Publishing", which was published from January, 1988 through December, 1995.
+All papers are available online in PDF (this was apparently one of the first
+journals to disseminate in PDF, in 1994). The journal also reprints some of
+the better papers from the Electronic Publishing conferences, held bi-yearly
+from 1986-1992 (EP86, EP88, EP90, EP92).
+
+http://cajun.cs.nott.ac.uk/compsci/epo/papers/epoddtoc.html
+
+Today's reader might look at the contents and wonder about their relevance,
+since they don't directly discuss the Web. As an academic, I find this
+journal valuable, since the papers are of generally high quality (by top
+researchers), and they provide lots of pointers to the evolution of the
+ideas that led to many Web technologies.  It's one source among many for
+sifting through the intellectual lineage of electronic publishing
+technologies.
+
+Rohit and Adam might find the following papers especially relevant, in the
+context of their WWW7 "Evolution of Document Species" paper:
+
+Page Description Languages: Development, Implementation and Standardization:
+A. L. Oakley and A. C. Norris
+http://cajun.cs.nott.ac.uk/compsci/epo/papers/volume1/issue2/epalo012.pdf
+
+Important papers in the history of document preparation systems: basic
+sources:
+Richard K. Furuta
+http://cajun.cs.nott.ac.uk/compsci/epo/papers/volume5/issue1/ep057rf.pdf
+(Excellent overview of sources)
+
+Several of the authors of papers in this journal are now involved in the ACM
+Document Engineering conference series:
+http://www.documentengineering.org/
+
+- Jim
+
+
+

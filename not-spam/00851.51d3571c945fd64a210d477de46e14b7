@@ -1,0 +1,50 @@
+Re: ActiveBuddy
+How is this any different from attaching an Infobot or A.L.I.C.E
+through licq's console-hook?  People have been doing that for years,
+and for over a decade in IRC and the MUDs.
+
+... and the one thing I think we've learned in all that time is that,
+as a help-desk, it doesn't work.  People just don't like talking to
+robots, especially when the robots, once confused, become imbeciles.
+I think the humans may feel cheated, deceived and tricked when they
+discover, as with the Seattle answer, that they are talking to a
+machine; there's no real intelligence behind that simulated-friendly
+and therefore empty 'thx'.
+
+AIML is clever and cute, but for /practical/ applications as a first
+line of technical support?  It's been tried over and over, and while I
+/also/ think that it /should/ work, for the most part, people won't
+use it.  What's worse, as we make the NL processing more and more
+clever, it only means it fails more dramatically; ALICE doesn't just
+stumble a bit, it starts to drool.  And ALICE is the best we have.
+
+Like a Dalek: All very impressive when things are going well, but all
+it takes to betray the chicken-brain inside is a towel over it's
+ill-placed eye, or a spin off the metal surface ;)
+
+In all the prolog-based NL database query systems of the 1980's and
+other later chatterbot helpdesk projects like Shallow Red, even
+simpler tries like Ask Jeeves, people very quickly know they're
+talking to a robot, and the queries anneal to short, truncated and
+terse database-like verb-noun or just noun-keyword requests.  
+
+People are just too quick to adapt, and too impatient to forgive a
+clunky interface, and for now, especially when the /average/ computer
+user still can't type more than maybe 5-10wpm, NL is a painfully slow
+clunky interface.
+
+Put it this way: Would you login, wake the bot and ask for the Seattle
+weather, or would you do as we /all/ do and just click the weather
+icon sitting there on your desktop?
+
+Just for fun, here's an interesting conversation between Shallow Red,
+ALICE and Eliza as they decide to play the Turing Game:
+
+http://www.botspot.com/best/12-09-97.htm
+
+-- 
+Gary Lawrence Murphy - garym@teledyn.com - TeleDynamics Communications
+ - blog: http://www.auracom.com/~teledyn - biz: http://teledyn.com/ -
+  "Computers are useless. They can only give you answers." (Picasso)
+
+

@@ -1,0 +1,36 @@
+RE: [ILUG] Drop in replacement for Ingres Database?> From: Paul Linehan [mailto:plinehan@yahoo.com] 
+>
+> There are two open alternatives that I can think of
+> that don't appear to have been mentioned 
+> elsewhere in this thread.
+> 
+> 
+> One is Firebird (this is my personal favourite).
+> It is http://FirebirdSQL.org and you can
+> purchase support contracts here
+> www.ibphoenix.com.
+
+Indeedy - I had never even heard of firebird until we started a new job
+last week with a client who uses it.  So we popped it onto a box
+downstairs and wow - it is fast.  Comes with some lovely client tools
+also.  Supports all the db goodies, transactions, stored procedures,
+triggers.
+
+> It's really amazing to think how much they've got
+> out of a db that is only 4 MB in size - that's 10
+> times smaller than the Oracle *_client_*.
+> 
+> 
+> Having said all of the above, Oracle is really
+> a super product, but ya pays ya money...
+> 
+IBM's db2 is another cheaper alternative to Oracle.  Free single
+developer license downloadable from their website.
+
+Fergal.
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

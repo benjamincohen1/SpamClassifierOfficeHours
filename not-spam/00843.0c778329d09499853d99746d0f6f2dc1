@@ -1,0 +1,53 @@
+Re: Wifi query
+I think what you're looking at with the dual antenna mounts is a 
+diversity antenna.  It won't work too well with one hooked up to the 
+pringles can and the other hooked up to a regular rubber duck.
+
+-Ian.
+
+
+On Tuesday, October 1, 2002, at 01:04 PM, Eugen Leitl wrote:
+
+>
+> 1) reinforced concrete shields like the dickens; wood lots less so
+> 2) line of sight is best (o'really?)
+> 3) if you want to boost range, use directional aerials, not omnis
+>
+> Direct line of sight (no trees, no nothing) can give you ~10 km with 
+> well
+> aligned directional aerials (and, say, no sleet, no locusts, nor rain 
+> of
+> blood). If you want to fan out afterwards, use a bridge of a 
+> directional
+> coupling to an omni. 802.11a should shield within building lots more 
+> than
+> 802.11b, ditto line of sight with lots of precipitation inbetween.
+>
+> On Tue, 1 Oct 2002, Damien Morton wrote:
+>
+>> I just bought a LinkSys BEFW1154v2 Access Point Router for $150
+>> (http://www.linksys.com/products/product.asp?grid=22&prid=415). Im 
+>> doing
+>> some dev work on a Symbol PocketPC device with built in 802.11b.
+>>
+>> In this 600 sq ft pre-war New York apartment it goes through 2 or 3
+>> walls, into the hallway and halfway down the first flight of stairs
+>> before it loses contact with the base station. That's less than 50 ft.
+>> Inside the apartment, it works just fine.
+>>
+>> I just did some further testing - through 2 brick walls the range is
+>> about 25 feet. The signal also goes through the roof pretty much
+>> unimpeded.
+>>
+>> That said, the Symbol device doesn't have an antenna to speak of, and 
+>> I
+>> havent done any tweaking to try to extend the range.
+>>
+>> The Linksys unit has two antenna mounts - you could leave one as an 
+>> omni
+>> antenna while hooking up a directional antenna to the other.
+>>
+>> You might find that you have to use several access points and/or
+>> repeaters to get the coverage you want.
+
+

@@ -1,0 +1,40 @@
+Re: [ILUG] Interesting article on free software licencesQuoting Paul Linehan (plinehan@yahoo.com):
+
+> The point here is that (under French law) the author can change the
+> terms of the licence arbitarily. This is because any granting of
+> rights by an author must be clearly delimited in terms of how long,
+> where, to whom, dates and times.
+
+The GPL and similar licences are explicitly permanent grants of rights
+attached to an instance of his work.  (The other stuff mentioned
+concerns contract law, e.g., the required element of privity, etc.)
+
+> In the absence of such limitations, the original author has the right
+> to change his software back to closed on a whim.
+
+No, the author has the right to issue _additional_ instances under a
+different licence, such as a proprietary ("closed" [sic]) licence.  
+
+> Rick Moen makes the point that it is not a sale but rather a granting
+> of rights which are not default. 
+> 
+> See the bit about even the granting of rights by an author having to
+> be explicitly specified - under French law.
+
+The analysis, here and elsewhere, concerns contract law.  This isn't
+contract law.
+
+This isn't the first time copyright attorneys have stumbled on this
+subject.  I'm sure it won't be the last.
+
+-- 
+Cheers,              "The front line of defense against such sophisticated 
+Rick Moen            viruses is a continually evolving computer operating 
+rick@linuxmafia.com  system that attracts the efforts of eager software
+                     developers."  -- Bill Gates         
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

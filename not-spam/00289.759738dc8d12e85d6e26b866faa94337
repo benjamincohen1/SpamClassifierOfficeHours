@@ -1,0 +1,27 @@
+Re: RedHat 8.0 and his own freetypeOn Tue, 08 Oct 2002 23:15:07 -0700
+Ben Liblit <liblit@eecs.berkeley.edu> wrote:
+
+> Ick.  Perhaps this is why Red Hat turned the bytecode interpreter off. 
+> It may improve non-antialiased rendering, but only at the expense of 
+> making a mess of antialiased rendering.
+> 
+> This may come down to a matter of personal aesthetics, but for my part, 
+> I'm going back to Red Hat's standard packages with the bytecode 
+> interpreter turned *off*.
+Yes, confirmed, but for my part, I'm using mostly non-antialiased fonts
+and 
+they are true ugly without the bytecode interpreter enabled.
+
+Remember my stupid request about your RPM ;-)
+
+
+--
+  Regards from Germany
+                     Matthias
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,29 @@
+Re: whoaOn 9/8/02 7:38 AM, "Gary Lawrence Murphy" <garym@canada.com> wrote:
+>   J> ...  If you want a region of the globe mapped out to a very
+>   J> high resolution (e.g. 1-meter), they can scan the area with
+>   J> aircraft LIDAR and add it to the database, thereby making that
+>   J> region zoomable to the resolution of the database for that
+>   J> area.  
+> 
+> Can you give us an example of an application where 1-m resolution
+> would be worth the considerable expense?
+
+
+An example:  Being able to model RF propagation in three dimensions for a
+metro area when deploying wireless networks.  By having every single tree
+and building detail and similar, you can "see" even tiny dead spots due to
+physical blockage and signal attenuation.  Overlay this with fiber map data
+for yourself and your competitors (when you can glean such data), which is
+also useful at this resolution, and you have a very slick way of modeling
+existing network deployments in excruciating detail and optimizing further
+deployments to maximize coverage and bandwidth.  Take that and tie it into a
+slick geo-physically aware real-time network monitoring and management
+system and you've really got something...
+
+For many applications though, 5-meter data is probably adequate.
+
+
+-James Rogers
+ jamesr@best.com
+
+

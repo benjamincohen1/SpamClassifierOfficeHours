@@ -1,0 +1,44 @@
+Re: [IIU] Eircom aDSL Nat'ingAt 17:10 22/08/2002 +0100, Nick Hilliard wrote:
+> > apologies for the possible silly question (i don't think it is, but),
+> > but is Eircom's aDSL service NAT'ed?
+>
+>No - you get unfiltered access with a real (but dynamic) IP address.
+>
+> > and what implications would that have for VoIP? I know there are
+> > difficulties with VoIP or connecting to clients connected to a NAT'ed
+> > network from the internet wild (i.e. machines with static, real IPs)
+>
+>You will probably suffer from the high latency of DLS lines.  Typically,
+>you're talking about 50ms RTT to the local bas, which is pretty high.
+>If your voip application can handle this, then you're ok.
+>
+>Nick
+
+what's the deal with all this latency? it's not like that in other places 
+where I've used dsl. i read some story about it being done that way to 
+allow greater distances to be covered or something like that. however, my 
+knowledge of physics is really only newtonian, and I don't understand how 
+worsening latency could possibly improve the reliability of a 2000 foot 
+long piece of copper. Perhaps it has something to do with stretching the 
+time-space continuum? can someone explain this in words of five syllables 
+or less?
+
+a.
+
+
+
+>_______________________________________________
+>IIU mailing list
+>IIU@iiu.taint.org
+>http://iiu.taint.org/mailman/listinfo/iiu
+
+--
+
+Antoin O Lachtnain
+**  antoin@eire.com ** http://www.eire.com ** +353-87-240-6691
+
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+

@@ -1,0 +1,70 @@
+Re: The Big Jump
+
+> All else being equal, the terminal velocity is inversely proportional to the
+> square root of air density. Air density drops off pretty quickly, and I 
+> really should be doing something other than digging up the math for that. I
+> think it involves calculus to integrate the amount of mass as the column of
+> the atmosphere trails off.
+
+Chemistry types have a method for
+dealing with this question without
+dragging in the calculus:
+
+Suppose an atmosphere to be mainly
+affected by gravity, resulting in
+the potential energy for a mass M
+to be linear in height h: Mgh.
+
+What relative concentrations will
+we have when two different packets
+of air are in equilibrium?
+
+If they are at the same height, we
+will have half the mass in one, and
+half the mass in the other, and the
+amount flowing from one to the other
+balances the amount flowing in the
+opposite direction.[0]
+
+If they are at differing heights,
+then a greater percentage of the
+higher air tends to descend than
+that percentage of the lower air
+which ascends.  In order for the
+two flows to balance, the higher
+packet must contain less air than
+the lower, and the mass balance
+of the flows corresponds thusly:
+
+    high percentage of thin air
+    ---------------------------
+    low percentage of dense air
+
+Now, rates are exponential in
+energy differences[1], so that
+theoretically we should expect
+an exponential decay in height,
+to compensate.  How does it go
+in practice?
+
+-Dave
+
+[0] How well does it balance?
+    Chemical equilibria seem 
+    stable, as they deal with
+    very large numbers over a
+    very long time.  Economic
+    equilibria are viewed from
+    the mayfly standpoint of
+    individual people, and so,
+    at best, the shot noise is
+    very visible.
+
+[1] That is to say, rates will
+    be exponential in the free
+    energy differences between
+    endpoints and a transition
+    state.  We can ignore that
+    complication in this model.
+
+

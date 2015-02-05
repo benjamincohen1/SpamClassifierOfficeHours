@@ -1,0 +1,53 @@
+Re: whoaOn 9/8/02 3:16 PM, "Gary Lawrence Murphy" <garym@canada.com> wrote:
+>>>>>> "J" == James Rogers <jamesr@best.com> writes:
+> 
+>   J> An example: Being able to model RF propagation in three
+>   J> dimensions for a metro area when deploying wireless networks.
+>   J> By having every single tree and building detail and similar,
+>   J> you can "see" even tiny dead spots due to physical blockage and
+>   J> signal attenuation.
+> 
+> Hmmm, just as I thought.  In other words, it has no practical uses
+> whatsoever ;) ... do the biz guys in your office /really/ think WISPs
+> are really going to shell out /their/ money to find a house or two
+> they can't reach?  Experience suggests (a) they won't care and (b)
+> they will even sign up that errant house and then give them a
+> run-around blaming the dead-spot on "unsupported vendor equipment".
+
+
+Errrr....the biz guys in my office don't care what the "WISPs" want to do
+with their little WiFi networks.  And the bandwidth shadows in most cities
+are surprisingly large and common.  They aren't selling the software, which
+is pretty pricy as it happens.  They are using it to optimize next
+generation wireless canopies over metro areas and fiber networks on a large
+scale.  There are an essentially infinite number of metro wireless
+configurations, some of which generate far more dead or marginal spots and
+others which are very expensive to operate (due to backhaul transit
+considerations) or both.  This software can be used as a tool to optimize
+the canopy coverage and minimize the actual transit costs since the wireless
+is tied into fiber at multiple points.
+
+The canopies we are talking about aren't short-range wifi technologies, but
+a mixture of long-range high-performance wireless networking, with bandwidth
+measured in tens to hundreds of mbits and ranges measured in miles (up to
+well over a hundred miles on the extreme end).  At those ranges and
+bandwidth levels, the cost of providing the network can easily vary by an
+order of magnitude or more depending on how you manage RF shadows and
+proximity to fiber access points.  The idea ultimately is to optimize the
+cost and performance such that no existing network infrastructure providers
+can remotely compete and maintain profitability.  This is a surprisingly low
+bar, and it is about time networks were designed with this level of
+large-scale optimization (cost per mbit, maximizing coverage, and effective
+bandwidth available per unit area) in any case.  And for this company's
+long-term plans, this type of capability will be absolutely necessary to
+keep things sane.
+
+Or at least investors find this capability very sexy and compelling,
+especially since we have this lovely visualization engine tied into the
+system (CLI batches never have the same effect, even if it is more
+efficient).
+
+-James Rogers
+ jamesr@best.com
+
+

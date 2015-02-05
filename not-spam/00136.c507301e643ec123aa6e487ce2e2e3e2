@@ -1,0 +1,39 @@
+xine src packge still gives errorsHi
+
+I try to rebuild xine from src package and I get these errors:
+
+.
+.
+.
+.
+.
+Finding  Provides: /usr/lib/rpm/find-provides
+Finding  Requires: /usr/lib/rpm/find-requires
+PreReq: rpmlib(PayloadFilesHavePrefix) <= 4.0-1 
+rpmlib(CompressedFileNames) <= 3.0.4-1
+Requires(rpmlib): rpmlib(PayloadFilesHavePrefix) <= 4.0-1 
+rpmlib(CompressedFileNames) <= 3.0.4-1
+Requires: xine-libs = 0.9.13 /bin/sh
+Obsoletes: xine-devel
+
+
+RPM build errors:
+    user dude does not exist - using root
+    user dude does not exist - using root
+    user dude does not exist - using root
+    user dude does not exist - using root
+    user dude does not exist - using root
+    File not found: /var/tmp/xine-root/usr/bin/aaxine
+
+
+thx,
+Roi
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

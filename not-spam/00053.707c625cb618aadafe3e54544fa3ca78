@@ -1,0 +1,27 @@
+[ILUG] Re: serial console...not quite workingJohn P. Looney stated the following on Thu, Aug 29, 2002 at 03:31:11PM +0100 :
+>  I'm not sure what exactly is wrong with this, but I can't get a redhat
+> 7.1 box to use ttyS0 as a console.
+> 
+>  The relevant bits of /boot/grub/grub.conf are:
+> 
+> serial --unit=0 --speed=115200
+> terminal --timeout=2 console serial
+> title=linux
+>    root (hd0,4)
+>    kernel /boot/bzImage ro root=/dev/md0 console=ttyS0,115200n81
+															     ^
+That 1 is unneeded and is probably whats upsetting your kernel
+
+we use "console=ttyS0,9600n8" but the 9600 is mainly cos we are a cisco
+shop and its to keepo everyhting the same.
+
+Colin
+-- 
+"Design" is like a religion - too much of it makes you inflexibly and unpopular.
+		Linus Torvalds
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,61 @@
+[use Perl] Stories for 2002-10-08use Perl Daily Newsletter
+
+In this issue:
+    * This Week on perl5-porters (30 September / 6 October 2002)
+    * RATS
+
++--------------------------------------------------------------------+
+| This Week on perl5-porters (30 September / 6 October 2002)         |
+|   posted by rafael on Monday October 07, @07:12 (summaries)        |
+|   http://use.perl.org/article.pl?sid=02/10/07/1124226              |
++--------------------------------------------------------------------+
+
+It was a busy week indeed, with long threads, interesting bugs, clever
+fixes, miscellaneous optimizations, some new ideas, a few jokes,
+mysterious failures, and, finally, a security hole. Read on.
+
+This story continues at:
+    http://use.perl.org/article.pl?sid=02/10/07/1124226
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/10/07/1124226
+
+
++--------------------------------------------------------------------+
+| RATS                                                               |
+|   posted by KM on Monday October 07, @09:01 (news)                 |
+|   http://use.perl.org/article.pl?sid=02/10/07/132252               |
++--------------------------------------------------------------------+
+
+Odud writes "RATS, the Rough Auditing Tool for Security, is a security
+auditing utility for C, C++, Python, Perl and PHP code. RATS scans source
+code, finding potentially dangerous function calls. The goal of this
+project is not to definitively find bugs. The current goal is to provide
+a reasonable starting point for performing manual security audits.
+Produced by [0]Secure Software" Uses a database so you can alter what you
+want it to look for. Not a replacement for using stricture or your head
+but is a good place to start some security auditing on your Perl.
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/10/07/132252
+
+Links:
+    0. http://www.securesoftware.com/rats.php
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

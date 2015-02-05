@@ -1,0 +1,27 @@
+Re: Java is for kiddies
+Gary Lawrence Murphy said:
+
+> I envy some of those posting to this list.  I've been in business for
+> 24 years and I haven't yet had the luxury of writing every line of
+> code for any project. We are always coerced by budgets and time to
+> maximize the amount of work done elsewhere.  
+
+For consultancy, integration or open source work, sure, perl, python or
+java with free use of external libs makes a lot of sense IMO.
+
+I should note that normally when I've used C or C++ in the past, it's
+dictated by the fact that I would be working on a commercial product,
+written from the ground up, where the code you're generating is important
+IP for the company; in this case, using a third-party lib often is not an
+option, or would be a PITA licensing-wise.
+
+Also, cutting out third-party dependencies can reduce the risk of "oops,
+there goes the company that makes that library I depend on, now to shop
+around for something vaguely similar, figure out what bugs it's got,
+rewrite my code to use the new API, and hope for the best".
+
+This can be a *very* big deal, for obvious reasons ;)    Open source
+knockers should note that this is not a problem when using LGPL'd libs ;)
+
+--j.
+

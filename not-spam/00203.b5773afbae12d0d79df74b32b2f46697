@@ -1,0 +1,15 @@
+Re: [ILUG] find the biggest filePhilip Reynolds wrote:
+>>Does anyone know how to list the biggest file in my
+>>root directory?or the second biggest ..etc...
+> $ find /dir -name \*  | xargs du -s | sort -n
+
+You might want to put a '-type f' on that find.
+
+Paul.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

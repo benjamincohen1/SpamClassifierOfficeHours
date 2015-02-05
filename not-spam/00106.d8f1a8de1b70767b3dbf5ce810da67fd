@@ -1,0 +1,24 @@
+Re: [ILUG] rpm dependenciesJohn P. Looney wrote:
+>  The only way you can resolve this, to my knowledge is to download the
+> original libvorbis rpm and the new one. Remove the old one, then do:
+> 
+>  rpm -Uvh libvorbis-*
+> 
+>  RPM then assumes that you want both versions installed at the same time,
+> and does so. Why you can't do this after you have one library already
+> installed is beyond me.
+
+Does using the --oldpackage flag help your pain, or is your pain caused 
+by "Obsoletes" flags?
+
+Cheers,
+Waider.
+-- 
+waider@waider.ie / Yes, it /is/ very personal of me
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

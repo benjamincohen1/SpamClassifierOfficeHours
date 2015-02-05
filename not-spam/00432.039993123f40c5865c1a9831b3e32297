@@ -1,0 +1,25 @@
+Re: CD player UI for toddlers
+----- Original Message -----
+From: "Jim Whitehead" <ejw@cse.ucsc.edu>
+
+>
+> For toddlers, pressing play must cause the music to start immediately,
+> within half a second, for the toddler to get the causality and not press
+the
+> button multiple times.
+Or some sound indicating that the music will start real soon now.
+
+> As well, pressing the button multiple times shouldn't
+> change the semantics, like an elevator button. No matter how many times
+you
+> press, the elevator still comes to that floor. The play button needs to be
+> the same.
+Idempotency everywhere you look...
+
+
+> What would the ideal toddler CD player be like? It would immediately start
+> playing a CD after it was loaded.
+It'd be an MP3 player with solid state storage... instant on.
+
+
+

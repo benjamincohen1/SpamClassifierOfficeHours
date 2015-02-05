@@ -1,0 +1,152 @@
+RE: [ILUG] Newby to Linux looking for information on cvsHello all,
+Firstly I'd like to thank all of you for the fast and very helpful feedback
+that I got to my question today.  I have one more question though.  I
+downloaded the w3 and url files from the server at the first try thanks to
+the help that I received today.  Then though I tried to build them.  I
+started by trying the w3 program.  I used the following lines which produced
+some strange results.  Would any one be able to set me straight?
+
+./configure --with-emacs --prefix=/usr/local/src/beta/w3 --exec-prefix=/usr/
+local/src/beta/w3 --with-url=/url/url
+That worked fine so I moved to the next step.
+make
+At the bottem of the text I got the following messages:
+Cannot open load file: /url/url/url-vars.el
+make[1]: *** [custom-load.el] Error 255
+make[1]: Leaving directory `/usr/local/src/beta/w3/lisp'
+make: *** [w3] Error 2
+
+When I got around to trying the url package I had no problems.  In saying
+that this doesn't necessarily mean that I was doing it right so below are
+the commands I used.
+./configure --with-emacs --prefix=/url/url --exec-prefix=/url/url
+followed by the commands make and make install.
+There is no text files which contain help on installing the url package so
+I'm not completely certain if I've used the right method here.
+
+Thanks again
+
+Darragh
+----- Original Message -----
+From: "Hunt, Bryan" <B.Hunt@emuse-tech.com>
+To: <macarthy@iol.ie>; <michael.conry@ucd.ie>
+Cc: <ilug@linux.ie>
+Sent: Thursday, September 05, 2002 5:08 PM
+Subject: OT: RE: [ILUG] Newby to Linux looking for information on cvs
+
+
+>
+> speaking of that IDE (weblogic developer) the open source version called
+> eclipse is free from eclipse.org If you are doing java development you
+> need to get this IDE . I've been using it for the last month and it is
+> absolutly superb. Best thing about it is that rather than using swing
+> (which is crap) is that they have their own native widget set called swt.
+>
+> When you run it on windows it uses windows widgets but when you run it on
+> linux it uses gtk, you should see it on gnome 2 ! Absolutely stunning !
+>
+> --B
+>
+> -----Original Message-----
+> From: Justin MacCarthy [mailto:macarthy@iol.ie]
+> Sent: 05 September 2002 16:53
+> To: michael.conry@ucd.ie
+> Cc: ilug@linux.ie
+> Subject: RE: [ILUG] Newby to Linux looking for information on cvs
+>
+>
+> This is the best step by step guide to setting up cvs on Redhat..
+>
+>
+http://www7b.software.ibm.com/wsdd/library/techarticles/0205_yu/yu.html?open
+> &l=456,t=gr
+>
+> It is for a particular IBM ide, but the setup and testing of the server is
+> the same for any CVS client
+>
+> Both The "Using Linux" and "Linux in a nutshell" book by Oreilly have
+> sections on cvs /rcs , and both books are a must buy for any linux newbie
+>
+>
+> Justin
+>
+>
+> > -----Original Message-----
+> > From: ilug-admin@linux.ie [mailto:ilug-admin@linux.ie]On Behalf Of
+> > Michael Conry
+> > Sent: 05 September 2002 16:34
+> > To: Darragh
+> > Cc: ilug@linux.ie
+> > Subject: Re: [ILUG] Newby to Linux looking for information on cvs
+> >
+> >
+> > On 0020 +0100 %{!Thu, Sep 05, 2002 at  3:55:16PM +0100}, Darragh wrote:
+> > > Hello,
+> > > I am very new to Linux and need some help on a utility called
+> > cvs.  As far
+> > > as I'm aware its a similar protocol to FTP.  I need to use it
+> > to download a
+> > > program from :pserver:anoncvs@subversions.gnu.org:/cvsroot/w3.
+> > I am looking
+> > > for information on how to use it.  I'll have another look at
+> > the man pages
+> > > but I think I have to set it up before I can download anything.
+> > cvs is really a very different kind of thing to FTP, but the details of
+> > that statement are left as an exercise to the reader (won't show up my
+> > own ignorance that way ;-)
+> > The application you want is cvsclient...
+> > There is documentation here:
+> > http://www.fokus.gmd.de/gnu/docs/cvs/cvsclient_toc.html
+> >
+> > You might get a quick idea of how it works from here:
+> > http://www.sci.muni.cz/~mikulik/gnuplot.html
+> > where he explains how to get cvs gnuplot...
+> > The commands are:
+> >
+> > export
+> > CVSROOT=:pserver:anonymous@cvs.gnuplot.sourceforge.net:/cvsroot/gnuplot
+> > cvs login
+> > cvs -z3 checkout gnuplot
+> >
+> > Something similar will probably do the job for you.  I'm guessing the
+> > following MIGHT work...
+> >
+> > export CVSROOT=:pserver:anoncvs@subversions.gnu.org:/cvsroot/w3
+> > cvs login
+> > cvs -z3 checkout w3
+> >
+> > m
+> > --
+> > Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
+> > Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C
+> >
+> > --
+> > Irish Linux Users' Group: ilug@linux.ie
+> > http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+> > information.
+> > List maintainer: listmaster@linux.ie
+> >
+> >
+> >
+>
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+information.
+> List maintainer: listmaster@linux.ie
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+information.
+> List maintainer: listmaster@linux.ie
+>
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

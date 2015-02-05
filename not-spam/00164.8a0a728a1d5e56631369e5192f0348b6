@@ -1,0 +1,50 @@
+Re: why is decentralization worth worrying about?Rohit Khare wrote:
+> 
+> Why am I so passionate about decentralization? Because I believe some of
+> today?s most profound problems with networked applications are caused by
+> centralization.
+> 
+> Generically, a centralized political or economic system permits only one
+> answer to a question, while decentralization permits many separate
+> agents to hold different opinions of the same matter. In the specific
+> context of software, centralized variables can only contain one valid
+> value at a time. That limits us to only representing information A)
+> according to the beliefs of a single agency, and B) that changes more
+> slowly than it takes to propagate. Nevertheless, centralization is the
+> basis for today?s most popular architectural style for developing
+> network applications: client-server interaction using request-response
+> communication protocols.
+
+I think the ability to maintain an inconsistent database
+is key to decentralization. 
+
+Databases enforce consistenty with every transaction.
+Bounded transactions, like an ATM, enforce consistency
+  by have some play with time and value
+Most people keep inconsistent data in their heads, it's
+  called congnitive dissonance theory
+Most businesses keep inconsistent data, documents, tationale
+  and ideas to support their work activities, it's called real life.
+
+I don't think it matters so much where it's located, i.e.
+decentralization. I think that decentralization is the workaround
+from technical limitations.  The fallout being that the only way
+inconsistent information spaces can be maintained is by 
+protecting them through a set of trust barriers and boundaries. 
+The local information when combined with the technical
+troubles of providing "just enough" forced synchronization
+to remote information provide workable data consistenty, i.e.
+enforcing local constraints or ignoring global ones when
+concerns are more immedidate.  
+
+Tolerating temporary, irreconcilable deviations is how
+people cope, otherwise you'd be like Nick Gatsby unnecessarily
+pre-occupied with a spot of shaving cream on McKee's neck
+who thinks that if he can just wipe that spot off that the
+whole world would be a little more perfect and everything,
+including his pre-occupation with Daisy, would consistently
+be in its proper place.
+
+Greg
+
+

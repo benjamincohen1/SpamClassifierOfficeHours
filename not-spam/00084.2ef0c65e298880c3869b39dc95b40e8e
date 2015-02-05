@@ -1,0 +1,26 @@
+Re: [ILUG] Seconds to date?On Sun, Sep 01, 2002 at 04:14:17PM +0100, Paul Jakma mentioned:
+> On Sun, 1 Sep 2002, kevin lyda wrote:
+> 
+> > gnu date is limited by time_t.  but i thought time_t expired in 2037?
+> > this seems to show it expiring in 2038:
+> 
+> (2^31-1)/3600/24/365+1970
+> 2038
+> 
+> course, on UltraSparc, x86-64, IA64, alpha, etc:
+> 
+> (2^63-1)/3600/24/365+1970
+> 292471210647
+> 
+> so we should be safe enough.
+
+ May I assume that x86-64 will be able to use a 64bit time_t too? 
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

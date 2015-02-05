@@ -1,0 +1,55 @@
+Patch to enable/disable logWhile I was playing with the past issues, it annoyed me that there was
+no easy way to make the log stop growing (I don't mean to truncate it,
+I mean to just freeze it for a while).
+
+The following patch adds a new button to the log window, which allows
+the log to be switched on/off (the button says "Disable" when the
+log is enabled, and the button disables it, and "Enable" when the log
+is frozen, and the button enables it again).
+
+kre
+
+--- main.tcl	Wed Aug 21 15:01:48 2002
++++ /usr/local/lib/exmh-2.5/main.tcl	Wed Aug 28 17:36:59 2002
+@@ -385,6 +385,9 @@
+ 	ExmhLogCreate
+ 	wm withdraw $exmh(logTop)
+     }
++    if {! $exmh(logWrite)} {
++	return
++    }
+     if [info exists exmh(log)] {
+ 	catch {
+ #	    $exmh(log) insert end " [bw_delta] "
+@@ -407,6 +410,9 @@
+     set exmh(logWindow) 1
+     Exwin_Toplevel .log "Exmh Log" Log
+     set exmh(logTop) .log
++    set exmh(logDisableBut) \
++	[Widget_AddBut $exmh(logTop).but swap "Disable" ExmhLogToggle]
++    set exmh(logWrite) 1
+     Widget_AddBut $exmh(logTop).but trunc "Truncate" ExmhLogTrunc
+     Widget_AddBut $exmh(logTop).but save "Save To File" ExmhLogSave
+     set exmh(logYview) 1
+@@ -457,6 +463,12 @@
+     } msg] {
+ 	Exmh_Status "Cannot save log: $msg" error
+     }
++}
++proc ExmhLogToggle {} {
++    global exmh
++
++    set exmh(logWrite) [expr ! $exmh(logWrite)]
++    $exmh(logDisableBut) configure -text [lindex {"Enable " Disable} $exmh(logWrite)]
+ }
+ #### Misc
+ 
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

@@ -1,0 +1,41 @@
+wifi progress
+Well it looks pretty much 99% sure that we will be moving in on Nov 1 to
+the new house. I think the only thing that stops us now are acts of
+dieties and total economic collapse..so no one mention the dow for the
+next few weeks..
+
+In preperation we drove to Best Buy tonight and picked up the test core
+for the wifi net. I got a linksys BEFW11S4(1) for the router/hub/wireless
+ap/firewall/etc and a linksys wifi pcmcia card for the laptop
+
+I made one false move so it took about 30 mins all told to set up the
+card, the router, and the other 3 machines in the house on the wire ether
+hub. All vfery neat very easy and very very cool set up via the
+webinterface. I have to dig into the firewall/nat/routing features some
+more (i have been reading up the wifi security blackpaper on ars technica)
+but all in all a smooth move.
+
+
+Now the place im at now, the house soon to be the ex house, has lots of
+funky things going on in the walls and in the area. We are in ,
+essentialy, a gravel pit..recption of all types suck and transmisions get
+goofy inside the pit.  That being said... with 2 walls and 40 feet between
+the AP and the pcmica card (no external antena on it) Im still getting
+11mbs and at least 60% goodness.
+
+
+Some cool things about the new house...its a 1912 job so no metal works
+inthe walls to speak of , mostly wood and plaster. We dont have a
+microwave and our cordless phines are on 900mhz (yea so I can use my bear
+cat to listen in on some calls, with kids in the house is that such a bad
+thing? Ben or heather, if you read this years from now...well by then I
+hope youare better at countermoeasures:)- )
+
+Ok, enough testing for tonight. I gota say, being able to do this in bed
+by vncing via wifi to my desktop is a blast...oh no...wifes pillow is
+heading this way....DUCKKKKK
+
+
+(1)http://www.linksys.com/Products/product.asp?grid=23&prid=173
+
+

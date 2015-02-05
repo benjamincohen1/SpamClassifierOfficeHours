@@ -1,0 +1,39 @@
+Re: storage bitsOn Mon, 16 Sep 2002, Stephen D. Williams wrote:
+
+> To make what work?  I already pointed out that a single drive is
+> comparable between IDE/SCSI.
+
+Alas, that's wrong. Both the drives are faster (10..15 krpm vs. ~7 krpm,
+faster seek), and the EIDE protocol is ridiculously dumb (queing;
+disconnect).
+ 
+> I think you're wrong with recent releases.  I'll check this week. 
+> There's also JFS and XFS.
+
+None of them are production quality. Right now only ext2 and ext3 qualify.  
+It will take a good while (a year, or two) before we can trust anything
+else.
+ 
+> >SCSI has got advantages still, particular if it comes to off-shelf 
+> >high-density racks.
+> >
+> Check out RaidZone.com.
+
+Have you looked inside a dual-CPU 1U Dell? Three drives are easy to get 
+in. Anything else would require a redesign, and would in nontrivial 
+thermal engineering issues.
+ 
+> A number of vendors are putting the Promise IDE hardware on the
+> motherboard.  All that remains is the proper drive socket.
+
+I can't think of a single major vendor who sells 1U systems with hardware
+EIDE RAID.
+
+> Additionally, you can get hardware IDE raid as a pair of drive bays or
+> even an IDE-IDEx2 controller that can be screwed into a 1U chassis.
+
+I believe you that stuff can be found, if one is looking for it. However, 
+I wouldn't put this into production unless I've had that system hanging in 
+the local rack under simulated load for a half a year.
+
+

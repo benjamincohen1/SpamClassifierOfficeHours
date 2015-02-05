@@ -1,0 +1,60 @@
+RE: [ILUG] [OT] Dell machine giving me hassle.
+
+> -----Original Message-----
+> From: Aherne Peter-pahern02 [mailto:peter.aherne@motorola.com]
+> Sent: 28 August 2002 09:29
+> To: 'ilug@linux.ie'
+> Subject: [ILUG] [OT] Dell machine giving me hassle.
+> 
+> Ok, Iknow this is blatantly OT but I'm beginning to go insane.
+> Had an old Dell Dimension XPS sitting in the corner and decided to
+> put it to use, I know it was working pre being stuck in the
+> corner, but when I plugged it in, hit the power nothing happened.
+> I opened her up and had a look and say nothing much. A little orange
+> LED comes on when I plug her in but that's it, after some googling
+> I found some reference to re-seating all the parts, but no change.
+> The problem I'm having is that since the power supply is some Dell
+> specific one, ATX block with what looks like one of the old AT
+> power connectors, I cant figure out weather this is a Mobo prob
+> or a PSU prob. Just to futily try and drag this back OT, I want
+> to install Linux on it when I get it working. If anyone knows
+> what the problem might be give me a shout.
+
+
+Here is what you do.
+
+Remove all the PCI & ISA/EISA cards.
+Remove the floppy disk cable from the mobo, the ide cables from the mobo...
+essentially leaving only a video card... ram and a keyboard plugged in.
+
+Turn on the system.
+If it doesn't POST then, switch it off and remove the video card.
+
+Switch it back on ... if your mobo doesn't emit some beeps complaining about
+lack of video card then.
+
+Switch it off.
+Remove it's ram.
+
+Same procedure as above.
+
+If you still don't have any kind of mobo beep codes then you can try as a
+last ditch effort to reseat the cpu... (remembering to never ever ever power
+up your system without a heatsink & fan).
+
+If after reseating the cpu into the mobo... you still get no beep codes,
+from it with just the cpu inserted into the mobo ie(no pci,*isa cards or and
+no actual ide or floppy cables connected to the system)... even though you
+have power... you either have a faulty motherboard or a faulty cpu.
+
+Once you get beep codes various permutations of the above should eventually
+disjunct which device it is, is causing the lack of POST.
+Power On Self Test.
+
+Bod
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

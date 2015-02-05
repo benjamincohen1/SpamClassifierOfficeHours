@@ -1,0 +1,47 @@
+Re: [ILUG] connecting at 1200bps in RH7.3 (help!)Colin Nevin wrote:
+> 
+> Hi All,
+> The modem handshake works at slightly higher speeds (4800bps to
+> ~57600bps) but that is no good for tx/rx'ing data to the remote server
+> as it insists at talking at the speed of treacle/1200bps.
+
+It sounds like the flow control is set to Xon/Xoff rather than hardware.
+
+> Baud 1200 7 data bits Even Parity
+
+Unusual -  8 n 1 is more common.
+
+> 
+> I am doing a ATZ3 to reset the modem then I send this init string:
+> 
+> AT&F1E1V1Q0X4Y0S32=232&A1&B0&C1&D2&H0&I0&K1&M4&N0&P0&R1&S0&U0&Y1
+
+I think that the AT command for hardware flow control is &E4 though this
+may vary from modem to modem.
+
+Regards...zzzzcc
+-- 
+********************************************
+John McCormac            * Hack Watch News
+zzzzcc@hackwatch.com       * 22 Viewmount, 
+Voice:   +353-51-873640  * Waterford,
+BBS&Fax: +353-51-850143  * Ireland
+http://www.hackwatch.com/~kooltek
+********************************************
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6
+
+mQCNAzAYPNsAAAEEAPGTHaNyitUTNAwF8BU6mF5PcbLQXdeuHf3xT6UOL+/Od+z+
+ZOCAx8Ka9LJBjuQYw8hlqvTV5kceLlrP2HPqmk7YPOw1fQWlpTJof+ZMCxEVd1Qz
+TRet2vS/kiRQRYvKOaxoJhqIzUr1g3ovBnIdpKeo4KKULz9XKuxCgZsuLKkVAAUX
+tCJKb2huIE1jQ29ybWFjIDxqbWNjQGhhY2t3YXRjaC5jb20+tBJqbWNjQGhhY2t3
+YXRjaC5jb20=
+=sTfy
+-----END PGP PUBLIC KEY BLOCK-----
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

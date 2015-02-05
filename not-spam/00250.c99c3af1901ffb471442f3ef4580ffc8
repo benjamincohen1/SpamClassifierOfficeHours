@@ -1,0 +1,58 @@
+Re: [ILUG] Newby to Linux looking for information on cvsOn 0020 +0100 %{!Thu, Sep 05, 2002 at 11:53:32PM +0100}, Darragh wrote:
+> the help that I received today.  Then though I tried to build them.  I
+> started by trying the w3 program.  I used the following lines which produced
+> some strange results.  Would any one be able to set me straight?
+> 
+> ./configure --with-emacs --prefix=/usr/local/src/beta/w3 --exec-prefix=/usr/
+> local/src/beta/w3 --with-url=/url/url
+One thing I _think_ you might be doing slightly wrong is your
+specification of prefixes.  --prefix is the directory to be used as root
+for _installing_ files.  Typically packages use /usr/local as default
+(so binaries might then go in /usr/local/bin, documentation in
+/usr/local/doc and so forth).
+Normally, I find it sufficient to put --prefix=/usr/local, and do not
+further specify things like --exec-prefix.
+
+Maybe you have a special reason for using the prefixes you chose, in
+which case ignore me!
+> That worked fine so I moved to the next step.
+> make
+> At the bottem of the text I got the following messages:
+> Cannot open load file: /url/url/url-vars.el
+> make[1]: *** [custom-load.el] Error 255
+> make[1]: Leaving directory `/usr/local/src/beta/w3/lisp'
+> make: *** [w3] Error 2
+> 
+> When I got around to trying the url package I had no problems.  In saying
+> that this doesn't necessarily mean that I was doing it right so below are
+> the commands I used.
+> ./configure --with-emacs --prefix=/url/url --exec-prefix=/url/url
+I'd make the same remarks about prefixes here.  I would use the command
+    ./configure --with-emacs --prefix=/usr/local
+
+To get w3 to compile, I think the with-url flag you should use is
+    --with-url=/usr/local/share/emacs/site-lisp/
+(Assuming you compiled/installed url with --prefix=/usr/local
+Since you appear to have installed url in /url/url, configure w3 with
+./configure --with-emacs --prefix=/usr/local/ --with-url=/url/url/share/emacs/site-lisp
+
+A command you would have found useful would have been
+    find / -name 'url-vars.el' -print
+Which would have told you where the url-vars.el file was installed.
+
+A program which is very useful is checkinstall
+http://asic-linux.com.mx/~izto/checkinstall/
+It allows you to install packages from source while still registering
+them in the package management system of your distro (rpm,deb,tgz).
+Instead of "make install" type "checkinstall", and a package is put
+together and installed for you.  Makes uninstallation simpler than it
+might otherwise be.
+-- 
+Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
+Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

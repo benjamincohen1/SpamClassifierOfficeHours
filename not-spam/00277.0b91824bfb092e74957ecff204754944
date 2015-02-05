@@ -1,0 +1,52 @@
+Re: mplayer not working for meLaurent Papier wrote:
+
+>On Tue, 8 Oct 2002 16:24:06 +0200
+>Matthias Saou <matthias@rpmforge.net> wrote:
+>
+>  
+>
+>>Once upon a time, Roi wrote :
+>>
+>>    
+>>
+>>>mplayer works with dga (if i am root) and works with x11
+>>>and always worked with sdl (but not now with redhat 8)
+>>>now it gives black screen window and play the music of the movie.
+>>>      
+>>>
+>>Strange, because as I said in an earlier post, it works for me. Maybe
+>>you're missing the SDL_image or something? :-/
+>>    
+>>
+>
+>It also works nicely for me.
+>
+>Laurent
+>  
+>
+
+[roi@roi roi]$ rpm -qa | grep -i sdl
+SDL_image-devel-1.2.2-3
+xmame-SDL-0.60.1-fr2
+SDL_mixer-1.2.4-5
+SDL-1.2.4-5
+SDL-devel-1.2.4-5
+SDL_mixer-devel-1.2.4-5
+SDL_net-1.2.4-3
+SDL_net-devel-1.2.4-3
+SDL_image-1.2.2-3
+
+Seems I got all packages I need.
+It worked on redhat 7.3 I did upgrade not reinstall so packages
+shouldn't make a problem.
+
+Roi
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

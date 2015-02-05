@@ -1,0 +1,42 @@
+[Same thread ish] [ILUG] adsl router modem combohaving great fun trying to find a dumb ADSL modem with Ethernet
+presentation, everybody wants to sell routers but I intend on doing pppoe
+from another device, something with more than one Ethernet port would be
+nice.
+anybody got any recommendations ?
+
+Uly
+
+----- Original Message -----
+From: <joefitz@netsoc.ucd.ie>
+To: <decdelmur@iol.ie>
+Cc: <ilug@linux.ie>
+Sent: Monday, October 07, 2002 10:35 AM
+Subject: Re: [ILUG] adsl router modem combo
+
+
+> It seems to only support PPPoA and not PPPoE. You need one that supports
+> PPPoE, if you want torun it in routed IP mode. If you are using it as a
+> bridge, it'll probably work, but you'd be left leaving the computer on,
+> which would defeat the purpose of getting a router.
+>
+> The best router I've come accross is the Zyxel 643. Eircom supply this,
+> but if you have alook online you can probably find it cheaper to buy
+> online from America or the UK.
+>
+> Hope this is useful,
+> Joe
+>
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+information.
+> List maintainer: listmaster@linux.ie
+>
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

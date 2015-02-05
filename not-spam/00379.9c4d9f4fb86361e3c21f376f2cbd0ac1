@@ -1,0 +1,34 @@
+RE: Java is for kiddiesWith the increasing prevalence of web services (not that they are always a
+good thing), I doubt that parsing XML will be something that will remain at
+the Java application layer for long... Recent threads here on Fork
+indicating the move towards hardware parsing or this code even become part
+of the native implementation of Java on various platforms...
+
+Reza B'Far
+
+-----Original Message-----
+From: fork-admin@xent.com [mailto:fork-admin@xent.com]On Behalf Of Adam
+L. Beberg
+Sent: Sunday, September 01, 2002 9:01 PM
+To: Mr. FoRK
+Cc: fork@spamassassin.taint.org
+Subject: Re: Java is for kiddies
+
+
+On Sun, 1 Sep 2002, Mr. FoRK wrote:
+
+> > 6.  Hardware is getting so fast that I'm not sure if the performance
+> > difference between Java and C/C++ are relevant any more.
+>
+> When out-of-the-box parsing & transform of XML in java is 25x slower than
+> C++ on the same hardware then it does matter.
+
+Yea, and that on top of the 100x of all the parsing engines over just
+bigendian'ing it and passing the data (5x+++) in the raw. Then it REALLY
+matters.
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

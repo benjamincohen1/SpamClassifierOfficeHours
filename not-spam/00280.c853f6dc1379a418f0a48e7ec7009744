@@ -1,0 +1,77 @@
+Re: Nessus?On Mon, Oct 07, 2002 at 11:05:21PM +0200, Matthias Saou wrote:
+> I've put up a new Red Hat Linux 8.0 build of nessus here :
+> http://ftp.freshrpms.net/pub/freshrpms/testing/nessus/
+> 
+> It's 100% untested, although the build should be ok. The new menu was
+> added, but some configuration files may be better with new or different
+> defaults.
+> 
+> Feedback is very welcome!
+
+It works very nice, would you consider upgrading it to 1.2.6 released only a
+few hours after your build?
+
+Thanks!
+
+On Tue, Oct 08, 2002 at 01:49:11PM +0200, Renaud Deraison wrote:
+> I'm pleased to announce the availability of Nessus 1.2.6, which should
+> be one of the last versions of Nessus 1.2.x (hopefully), as I will soon
+> open a new unstable tree and start to break things again :)
+> 
+> What is new in Nessus 1.2.6, in comparison to 1.2.5 :
+> 
+> * changes by Michael Slifcak (Michael.Slifcak at guardent.com)
+>      + Added Bugtraq cross reference in the plugins
+>      + Added support for BID in nessusd (this has yet to be done on
+>        the client side)
+>        
+> * changes by Axel Nennker (Axel.Nennker at t-systems.com)
+>      + fixed the xml and html outputs
+>      + fixed array issues in a couple of plugins
+>      
+> * changes by Michel Arboi (arboi at bigfoot.com)
+>      + find_service now detects services protected by TCP wrappers
+>        or ACL
+>      + find_service detects gnuserv
+>      + ptyexecvp() replaced by nessus_popen() (*)
+>      
+> * changes by Renaud Deraison (deraison at cvs.nessus.org)
+>      + Fixed a bug which may make nasl interpret backquoted strings
+>        (\n and \r) received from the network (problem noted by Pavel
+>        Kankovsky)
+>      + nmap_wrapper.nes calls _exit() instead of exit() (*)
+>      + Solved the lack of bpf's on Free/Open/NetBSD and MacOSX by
+>        sharing _one_ among all the Nessus processes. As a result,
+>        Nessus's ping is much more effective on these platforms
+>      + bugfix in plug_set_key() which would eventually make some
+>        scripts take too long when writing in the KB
+>      + Plugins of family ACT_SETTINGS are run *after* plugins of
+>        family ACT_SCANNERS
+>      + replaced the implementation of md5 which was used when
+>        OpenSSL is disabled by the one from RSA (the old one would
+>        not work on a big-endian host)
+>      + Fixed plugins build issues on MacOS X
+>      + The nessus client compiles and links against GTK+-2.0. Of
+>        course, it will be horrible and unstable, as the GTK team
+>        does not care about backward compatibility
+>   
+> (*) These two modifications solve the problems of nmap hanging under FreeBSD
+> 
+> 
+> 
+> Special thanks go to Michael Slifcak, whose work on Nessus during the
+> last months have been truly appreciated even if they have not always
+> been as underlined as they should have been. Michael, thanks again !
+> 
+> 
+> AVAILABILITY:
+> 
+> Nessus 1.2.6 is available at http://www.nessus.org/posix.html
+-- 
+Axel.Thimm@physik.fu-berlin.de
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

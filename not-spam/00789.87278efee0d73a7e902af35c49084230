@@ -1,0 +1,13 @@
+Re: dumb question: X client behind a firewall?"Joseph S. Barrera III" <joe@barrera.org> writes:
+
+> Let's say you're behind a firewall and have a NAT address.
+> Is there any way to telnet to a linux box out there in the world
+> and set your DISPLAY in some way that you can create
+> xterms on your own screen?
+
+Assuming your local display is X, SSH.
+
+-- 
+Karl Anderson      kra@monkey.org           http://www.monkey.org/~kra/
+
+

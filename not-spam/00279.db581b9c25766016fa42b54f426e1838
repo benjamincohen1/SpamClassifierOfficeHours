@@ -1,0 +1,18 @@
+Re: RedHat 8.0 and his own freetypeMatthias Haase wrote:
+> The recompile of the SPRM failed for me with:
+> #----
+> RPM build errors:
+>     File not found by glob:
+> /var/tmp/freetype-2.1.2-root/usr/lib/libttf.so.*
+>     File not found: /var/tmp/freetype-2.1.2-root/usr/lib/libttf.so
+
+Weird.  I had no problems at all rebuilding from the SRPM with specfile
+modified to enable the bytecode interpreter.  The "check-files" test
+warns that "/usr/share/aclocal/freetype2.m4" was not included in any
+package, but other then that, it's all perfectly clean.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
