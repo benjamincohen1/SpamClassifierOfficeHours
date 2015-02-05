@@ -2,8 +2,10 @@
 The code from my codementor office hours on an introduction to machine learning and natural language processing. 
 
 Prerequisites: 
+
   nltk
-  WEKA
+
+  [WEKA] (http://www.cs.waikato.ac.nz/ml/weka/)
 
 To extract the features run "python feature_extract.py".
 
